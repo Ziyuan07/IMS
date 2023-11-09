@@ -9,6 +9,15 @@ In the project directory, you can run:
 It requires node package manager to run the installation for this app library.
 You can install NodeJS here: https://nodejs.org/en/
 
+### `Set Up Firebase API Key`
+
+Due to security issues, Firebase API key will required to be setup in local file
+After install package, create a file name .env at project root, then write this line:
+
+```
+REACT_APP_FIREBASE_KEY = (Your Firebase API Key)
+```
+
 ### `npm start`
 
 Once installation complete, you can runs the app in the development mode.\
